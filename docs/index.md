@@ -13,7 +13,7 @@ Use the Quarkus Agent MCP for project creation, extension guidance, development,
 
 <div class="lab-actions" markdown>
 [Start the lab](lab-overview.md){ .md-button .md-button--primary }
-[Download the guide](downloads/LAB-1113-Lab-Guide.docx){ .md-button download }
+[Download the guide (PDF)](downloads/LAB-1113-Lab-Guide.pdf){ .md-button download }
 [Intro slides](downloads/LAB-1113-Lab-Intro.pptx){ .md-button download }
 </div>
 
@@ -56,7 +56,7 @@ Work through the core exercises in order. Each includes prompts to paste into Bo
 ## Keep these nearby
 
 - [Troubleshooting](troubleshooting.md): sign-in, Maven, MCP, tests, Dev Services, and Podman recovery.
-- [Downloads](downloads.md): Word guide, introduction slides, MCP configuration, and workspace instructions.
+- [Downloads](downloads.md): PDF guide, introduction slides, MCP configuration, and workspace instructions.
 - [Lab overview](lab-overview.md): outcomes, responsibilities, and the terms used in the exercises.
 - [Source repository](https://github.com/myfear/techxchange-2026-quarkus-bob-lab-1113): source pages and publishing workflow.
 

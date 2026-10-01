@@ -6,7 +6,7 @@ Build a Quarkus REST service with IBM Bob and the Quarkus Agent MCP, persist gre
 
 **[Open the lab guide](https://myfear.github.io/techxchange-2026-quarkus-bob-lab-1113/)**
 
-- [Download the Word guide](docs/downloads/LAB-1113-Lab-Guide.docx)
+- [Download the PDF guide](docs/downloads/LAB-1113-Lab-Guide.pdf)
 - [Download the introduction slides](docs/downloads/LAB-1113-Lab-Intro.pptx)
 - [Read the publishing instructions](PUBLISHING.md)
 
@@ -44,7 +44,7 @@ python -m mkdocs build --strict
 | `docs/exercises/` | Sequential exercises and optional Qute stretch |
 | `docs/troubleshooting.md` | Recovery prompts and environment fixes |
 | `docs/assets/images/` | Ten screenshots from the verified lab run |
-| `docs/downloads/` | Final Word guide, introduction slides, and workspace templates |
+| `docs/downloads/` | PDF guide, introduction slides, and workspace templates |
 | `mkdocs.yml` | Navigation, Material theme, search, and link validation |
 | `.github/workflows/docs.yml` | Pull-request validation and Pages deployment |
 | `PUBLISHING.md` | Setup, updates, downloads, and recovery |

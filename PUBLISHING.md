@@ -13,7 +13,7 @@ The workflow uses GitHub's built-in token. It requires no personal token or repo
 ## Publish a content change
 
 1. Edit the relevant Markdown under `docs/`. Preserve code and prompts when making layout changes.
-2. Update downloads if the approved Word guide, slides, or workspace templates changed.
+2. Update downloads if the approved PDF guide, slides, or workspace templates changed.
 3. In the repository's virtual environment, validate the production build:
 
     ```bash
@@ -33,12 +33,20 @@ To republish without a source change, open **Actions → Build and publish lab g
 
 The files in `docs/downloads/` are copied unchanged into the Pages artifact. Replacing a file and publishing `main` updates its existing download URL.
 
-- `LAB-1113-Lab-Guide.docx`: the approved final Word guide.
+- `LAB-1113-Lab-Guide.pdf`: the final 28-page guide, exported from Word with the lab-run screenshots.
 - `LAB-1113-Lab-Intro.pptx`: the introduction deck.
 - `AGENTS.md.txt`: workspace rules, offered with the download filename `AGENTS.md`. The `.txt` suffix keeps MkDocs from rendering it as a site page.
 - `mcp-quarkus-agent.json`: MCP template, offered with the download filename `mcp.json`.
 
-The initial Word guide is the supplied final artifact, byte for byte. Its instructional text, tables, and all 29 code/prompt blocks were checked against the Markdown before splitting the web exercises. The web pages and Word guide are separate maintained artifacts; this workflow does not regenerate Office documents. If you revise lab instructions, update and verify both before publishing. Hyperlinks already embedded in the supplied Office files are preserved.
+Keep the editable Word source outside this repository. Its instructional text, tables, and all 29 code/prompt blocks were checked against the Markdown before splitting the web exercises. The web pages and downloadable guide are separate maintained artifacts; this workflow does not regenerate the PDF or Office documents.
+
+When changing the guide:
+
+1. Update your local Word source and the corresponding web exercises.
+2. In Microsoft Word, refresh the table of contents and export as PDF using **Save As → PDF → Best for printing**. Word preserves the guide's pagination; LibreOffice can paginate it differently.
+3. Set the PDF title to the lab title and the authors to Markus Eisele and Alex Soto. Check that troubleshooting links point to `https://myfear.github.io/techxchange-2026-quarkus-bob-lab-1113/troubleshooting/` with their section anchors. Replace any original IBM-internal URLs when exporting the public guide.
+4. Inspect every exported page, including the contents-page numbers, code blocks, and screenshots, then replace `docs/downloads/LAB-1113-Lab-Guide.pdf`.
+5. Build and publish as described above.
 
 ## Update images
 
@@ -50,7 +58,7 @@ To add a new image, place it in that directory, link it relative to the Markdown
 
 1. Point the short URL at `https://myfear.github.io/techxchange-2026-quarkus-bob-lab-1113/`.
 2. Add it at the marked comment in `docs/index.md`, for example as a **Quick access** callout.
-3. Update the introduction slides and Word guide if they need the short URL or a QR code.
+3. Update the introduction slides and Word source if they need the short URL or a QR code, then export and verify a new PDF guide.
 4. Publish and test the redirect.
 
 Keep `site_url` set to the full GitHub Pages URL. A short URL is a redirect, not a custom domain; it requires no `CNAME` file or DNS change for this repository.

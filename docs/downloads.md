@@ -1,10 +1,10 @@
 # Downloads
 
-Use the web exercises for copyable prompts and commands. Keep the Word guide and introduction slides available for reference.
+Use the web exercises for copyable prompts and commands. Keep the PDF guide and introduction slides available for reference.
 
 | File | Purpose |
 | --- | --- |
-| [Lab guide (Word)](downloads/LAB-1113-Lab-Guide.docx){ download } | Final LAB-1113 guide, including the lab-run screenshots |
+| [Lab guide (PDF)](downloads/LAB-1113-Lab-Guide.pdf){ download } | Final 28-page LAB-1113 guide, including the lab-run screenshots |
 | [Introduction slides (PowerPoint)](downloads/LAB-1113-Lab-Intro.pptx){ download } | Six-slide introduction to the lab |
 | [Workspace instructions (AGENTS.md)](downloads/AGENTS.md.txt){ download="AGENTS.md" } | Quarkus MCP workflow rules for IBM Bob |
 | [MCP configuration (JSON)](downloads/mcp-quarkus-agent.json){ download="mcp.json" } | Template for the workspace's `.bob/mcp.json` |
