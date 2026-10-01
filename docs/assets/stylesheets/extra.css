@@ -1,0 +1,62 @@
+:root {
+  --md-text-font: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --md-code-font: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+}
+
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #0f62fe;
+  --md-accent-fg-color: #007d79;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #0043ce;
+  --md-accent-fg-color: #3ddbd9;
+}
+
+.md-typeset h1 {
+  font-weight: 650;
+  letter-spacing: -0.025em;
+  color: var(--md-default-fg-color);
+}
+
+.md-typeset .lab-kicker {
+  color: var(--md-default-fg-color--light);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.md-typeset .lab-lead {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.md-typeset .lab-actions {
+  margin: 1.5rem 0;
+}
+
+.md-typeset .lab-actions p {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin: 0;
+}
+
+.md-typeset img[src*="assets/images/"] {
+  display: block;
+  max-height: 42rem;
+  margin: 1.5rem auto;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.3rem;
+}
+
+.md-typeset__table { width: 100%; }
+.md-typeset table:not([class]) { display: table; width: 100%; }
+.md-typeset table td,
+.md-typeset table th { padding: 0.6em 0.8em; }
+
+@media print {
+  .lab-actions { display: none; }
+  .md-typeset img { max-height: 70vh; }
+}

@@ -1,0 +1,91 @@
+site_name: "LAB-1113 · Quarkus, Containers & Bob"
+site_description: "Modern Java Development Workflow: Quarkus, Containers, and IBM Bob — IBM TechXchange 2026 hands-on lab."
+site_author: Markus Eisele
+site_url: https://myfear.github.io/techxchange-2026-quarkus-bob-lab-1113/
+repo_name: myfear/techxchange-2026-quarkus-bob-lab-1113
+repo_url: https://github.com/myfear/techxchange-2026-quarkus-bob-lab-1113
+edit_uri: edit/main/docs/
+copyright: "© 2026 International Business Machines Corporation."
+
+theme:
+  name: material
+  language: en
+  favicon: assets/favicon.svg
+  logo: assets/favicon.svg
+  font: false
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.tabs
+    - navigation.footer
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: teal
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+nav:
+  - Home: index.md
+  - Lab overview: lab-overview.md
+  - Exercises:
+      - "0. Check the environment": exercises/environment.md
+      - "1. Configure MCP and Bob": exercises/configure-mcp.md
+      - "2. Create the REST service": exercises/rest-service.md
+      - "3. Add persistence": exercises/persistence.md
+      - "4. Containerize with Podman": exercises/containers.md
+      - "Optional: Add a Qute UI": exercises/qute-ui.md
+      - "5. Wrap up": exercises/wrap-up.md
+  - Resources:
+      - Troubleshooting: troubleshooting.md
+      - Downloads: downloads.md
+      - Notices and disclaimers: notices.md
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - sane_lists
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+
+validation:
+  nav:
+    omitted_files: warn
+    not_found: warn
+  links:
+    not_found: warn
+    anchors: warn
+    unrecognized_links: warn
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/myfear/techxchange-2026-quarkus-bob-lab-1113

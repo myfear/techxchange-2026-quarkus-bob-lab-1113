@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "quarkus-agent": {
+      "command": "REPLACE_WITH_JBANG_PATH",
+      "args": ["quarkus-agent-mcp@quarkusio"],
+      "env": {
+        "JAVA_HOME": "REPLACE_WITH_JAVA_HOME"
+      }
+    }
+  }
+}

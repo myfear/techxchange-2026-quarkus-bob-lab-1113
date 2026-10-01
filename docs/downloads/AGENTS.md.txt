@@ -1,0 +1,28 @@
+# LAB-1113 — instructions for IBM Bob
+
+This workspace is the lab root. Create the Quarkus application in a `greeting-service` subdirectory. Do all Quarkus work through the **quarkus-agent** MCP server.
+
+## Tooling
+
+- Use `quarkus_create` to scaffold a new Maven Quarkus app. Set `quarkusVersion` to `3.39.5` and `noWrapper` to `true`; use the preinstalled system Maven. Do not run Maven archetypes or `quarkus create` in the terminal.
+- After create or before any code change, call `quarkus_skills` for the extensions you will touch.
+- Use `quarkus_searchDocs` for APIs, configuration, and current guide text. Do not invent Quarkus APIs from memory when a docs search exists.
+- Use `quarkus_start`, `quarkus_stop`, `quarkus_restart`, `quarkus_status`, and `quarkus_logs` for lifecycle.
+- Discover Dev MCP tools with `quarkus_searchTools`. Invoke them with `quarkus_callTool`.
+- Add extensions through Dev MCP extension tools. After dependency changes, stop and start through MCP, then discover tools again.
+
+## Tests and failures
+
+- Run tests through MCP (`devui-testing_runTests` or `devui-testing_runTest` via `quarkus_callTool`). Do not run `mvn test` for this lab.
+- Never run `mvn clean` or `gradle clean` while dev mode is running. That deletes `target/test-classes` and breaks the MCP test runner.
+- On compile or runtime failure, call `devui-exceptions_getLastException` via `quarkus_callTool`. After the fix, call `devui-exceptions_clearLastException`.
+- If the test runner is stuck, `quarkus_stop` then `quarkus_start`.
+
+## This lab
+
+- groupId: `com.ibm.txc.lab`
+- artifactId: `greeting-service`
+- Container runtime: Podman. Do not install Docker.
+- Keep the Quarkus platform BOM and Maven plugin at 3.39.5. The lab machines have Maven dependencies for this version pre-populated. Do not upgrade.
+- Package a JVM container image only after `quarkus_stop`. `mvn package -Dquarkus.container-image.build=true` is allowed after stop.
+- Keep Dev Services in dev: do not set `quarkus.datasource.jdbc.url` except on the `%prod.` profile.
