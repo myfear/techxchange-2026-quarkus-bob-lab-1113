@@ -9,6 +9,7 @@ Build a Quarkus REST service with IBM Bob and the Quarkus Agent MCP, persist gre
 - [Download the PDF guide](docs/downloads/LAB-1113-Lab-Guide.pdf)
 - [Download the introduction slides](docs/downloads/LAB-1113-Lab-Intro.pptx)
 - [Read the publishing instructions](PUBLISHING.md)
+- [Get the VM preload inventory for ops](ops/README.md)
 
 ## Attend the lab
 

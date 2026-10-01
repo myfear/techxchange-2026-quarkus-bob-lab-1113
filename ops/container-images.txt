@@ -1,0 +1,7 @@
+docker.io/library/postgres:16
+docker.io/library/postgres:18
+registry.access.redhat.com/ubi9/openjdk-25-runtime:1.24
+docker.io/testcontainers/ryuk:0.14.0
+docker.io/library/alpine:3.17
+ghcr.io/quarkusio/chappie-ingestion-quarkus:latest
+ghcr.io/quarkusio/chappie-ingestion-quarkus:3.36.0
