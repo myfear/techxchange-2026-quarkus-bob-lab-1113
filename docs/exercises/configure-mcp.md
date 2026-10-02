@@ -20,7 +20,7 @@ For more information, see [Using MCP in Bob](https://docs.bob.ibm.com/docs/ide/c
 
 Bob launched from the desktop inherits the **system PATH**, not your shell PATH. SDKMAN installs JBang and Java on the shell PATH only, so `command: "jbang"` often fails with `spawn jbang ENOENT`. Use absolute paths.
 
-1. In the MCP tab, click **Add MCP Server** and select the **lab-1113-workspace** configuration space. Click **Open Configuration File**. Bob creates `.bob/mcp.json` in the workspace if needed.
+1. In the MCP tab, click **Add MCP Server**, or the `+` icon, and select the **lab-1113-workspace** configuration space. Click **Open Configuration File**. Bob creates `.bob/mcp.json` in the workspace if needed.
 2. Replace the file contents with the following JSON. Substitute the paths you recorded from `which jbang` and `echo "$JAVA_HOME"`.
 
 ```json
