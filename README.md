@@ -1,3 +1,5 @@
+![IBM TechXchange 2026, LAB-1113: Modern Java Development Workflow. Quarkus, Containers, and IBM Bob. 90-minute hands-on lab.](docs/assets/images/lab-1113-homepage-banner.png)
+
 # LAB-1113 · Quarkus, containers, and IBM Bob
 
 **IBM TechXchange 2026 · 90-minute hands-on lab**
@@ -44,7 +46,7 @@ python -m mkdocs build --strict
 | `docs/lab-overview.md` | Outcomes, workflow, and terminology |
 | `docs/exercises/` | Sequential exercises and optional Qute stretch |
 | `docs/troubleshooting.md` | Recovery prompts and environment fixes |
-| `docs/assets/images/` | Ten screenshots from the verified lab run |
+| `docs/assets/images/` | Lab banner and ten screenshots from the verified lab run |
 | `docs/downloads/` | PDF guide, introduction slides, and workspace templates |
 | `mkdocs.yml` | Navigation, Material theme, search, and link validation |
 | `.github/workflows/docs.yml` | Pull-request validation and Pages deployment |
