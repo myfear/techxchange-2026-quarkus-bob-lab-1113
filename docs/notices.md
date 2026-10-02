@@ -1,8 +1,8 @@
 # Notices and disclaimers
 
-© 2026 International Business Machines Corporation. No part of this document may be reproduced or transmitted in any form without written permission from IBM.
+© 2026 International Business Machines Corporation.
 
-U.S. Government Users Restricted Rights — use, duplication or disclosure restricted by GSA ADP Schedule Contract with IBM.
+The content in this repository is provided under the [Apache License, Version 2.0](https://github.com/myfear/techxchange-2026-quarkus-bob-lab-1113/blob/main/LICENSE). The IBM product information, disclaimers, and trademark notices below do not modify that license.
 
 This document is current as of the initial date of publication and may be changed by IBM at any time. Not all offerings are available in every country.
 
@@ -23,7 +23,5 @@ Workshops, sessions and associated materials may have been prepared by independe
 It is the customer's responsibility to ensure its own compliance with legal requirements and to obtain advice of competent legal counsel.
 
 Questions on the capabilities of non-IBM products should be addressed to the suppliers of those products. IBM does not warrant the performance or compatibility of non-IBM products.
-
-The provision of the information contained herein is not intended to, and does not, grant any right or license under any IBM patents or intellectual property.
 
 IBM, the IBM logo, and ibm.com are trademarks of International Business Machines Corporation, registered in many jurisdictions worldwide.

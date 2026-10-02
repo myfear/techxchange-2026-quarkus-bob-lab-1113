@@ -53,3 +53,13 @@ python -m mkdocs build --strict
 | `PUBLISHING.md` | Setup, updates, downloads, and recovery |
 
 GitHub Actions validates pull requests and publishes successful `main` builds using Pages artifacts. Deployment does not create commits or push a `gh-pages` branch.
+
+## License
+
+Copyright 2026 International Business Machines Corporation.
+
+Licensed under the [Apache License, Version 2.0](LICENSE). See [Notices and disclaimers](docs/notices.md) for IBM product information, disclaimers, and trademark notices.
+
+## IBM Public Repository Disclosure
+
+All content in these repositories including code has been provided by IBM under the associated open source software license and IBM is under no obligation to provide enhancements, updates, or support. IBM developers produced this code as an open source project (not as an IBM product), and IBM makes no assertions as to the level of quality nor security, and will not be maintaining this code going forward.
