@@ -3,6 +3,8 @@ hide:
   - toc
 ---
 
+![IBM TechXchange 2026, LAB-1113: Modern Java Development Workflow. Quarkus, Containers, and IBM Bob. 90-minute hands-on lab.](assets/images/lab-1113-homepage-banner.png){ .lab-banner width="2172" height="724" fetchpriority="high" }
+
 <p class="lab-kicker">IBM TechXchange 2026 · LAB-1113 · 90 minutes</p>
 
 # Modern Java Development Workflow: Quarkus, Containers, and IBM Bob
