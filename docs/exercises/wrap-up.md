@@ -40,6 +40,8 @@ The production-shaped loop is the same one the abstract promised: create REST, p
 
 ## Further reading
 
+Continue with [Further Readings](../further-readings.md) for articles on Bob context, project memory, lifecycle hooks, and Quarkus skills, testing, and packaging.
+
 - [Quarkus Agent MCP](https://github.com/quarkusio/quarkus-agent-mcp) — tool list, IBM Bob `mcp.json` notes, PATH troubleshooting
 - [Container images (Quarkus)](https://quarkus.io/guides/container-image) — Podman builder and image coordinates
 - [Hibernate ORM with Panache](https://quarkus.io/guides/hibernate-orm-panache)
