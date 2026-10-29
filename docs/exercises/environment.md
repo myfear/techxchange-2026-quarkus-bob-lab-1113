@@ -81,5 +81,6 @@ Do the lab in a dedicated folder, not inside this documentation repository. The 
 1. Create an empty folder, for example `~/lab-1113-workspace`.
 2. In Bob, choose **File → Open Folder** and select that folder.
 3. Confirm the explorer shows an empty workspace. The next sections add MCP configuration, then `AGENTS.md`, then the Quarkus app.
+4. If you see at the top bar a message like: **Trust this folder to enable all feautues**, then click on **Manage** link and in the pop up window the **Trust** button.
 
 If the chat panel is hidden, click the Bob icon in the navigation bar, or press **Option + Command + B** (macOS) / **Ctrl + Alt + B** (Windows/Linux). See the [Bob Quickstart](https://docs.bob.ibm.com/docs/ide/getting-started/quickstart).
